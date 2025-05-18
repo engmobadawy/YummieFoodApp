@@ -1,9 +1,4 @@
-//
-//  DishDetailViewController.swift
-//  Yummie
-//
-//  Created by Emmanuel Okwara on 20/02/2021.
-//
+
 
 import UIKit
 import ProgressHUD
@@ -32,6 +27,7 @@ class DishDetailViewController: UIViewController {
     }
     
     @IBAction func placeOrderBtnClicked(_ sender: UIButton) {
+        //removing any spaces from beggining and ending
         guard let name = nameField.text?.trimmingCharacters(in: .whitespaces),
               !name.isEmpty else {
             ProgressHUD.showError("Please enter your name")

@@ -1,9 +1,4 @@
-//
-//  Route.swift
-//  Yummie
-//
-//  Created by Emmanuel Okwara on 30/04/2021.
-//
+
 
 import Foundation
 

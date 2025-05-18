@@ -1,9 +1,4 @@
-//
-//  DIshLandscapeCollectionViewCell.swift
-//  Yummie
-//
-//  Created by Emmanuel Okwara on 20/02/2021.
-//
+
 
 import UIKit
 

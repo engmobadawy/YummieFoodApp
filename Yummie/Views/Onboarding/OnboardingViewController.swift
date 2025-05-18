@@ -1,10 +1,3 @@
-//
-//  OnboardingViewController.swift
-//  Yummie
-//
-//  Created by Emmanuel Okwara on 30/01/2021.
-//
-
 import UIKit
 
 class OnboardingViewController: UIViewController {
@@ -16,6 +9,7 @@ class OnboardingViewController: UIViewController {
     var slides: [OnboardingSlide] = []
     
     var currentPage = 0 {
+        //didSet is a property observer in Swift that runs after a property's value changes
         didSet {
             pageControl.currentPage = currentPage
             if currentPage == slides.count - 1 {
@@ -40,6 +34,7 @@ class OnboardingViewController: UIViewController {
     
     @IBAction func nextBtnClicked(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
+//            Giving a Storyboard ID to a UINavigationController (or any view controller) is essential when you want to instantiate it programmatically from the storyboard.
             let controller = storyboard?.instantiateViewController(identifier: "HomeNC") as! UINavigationController
             controller.modalPresentationStyle = .fullScreen
             controller.modalTransitionStyle = .flipHorizontal
@@ -68,7 +63,7 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
     }
-    
+    // to know when the page has finshed scrolling
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let width = scrollView.frame.width
         currentPage = Int(scrollView.contentOffset.x / width)

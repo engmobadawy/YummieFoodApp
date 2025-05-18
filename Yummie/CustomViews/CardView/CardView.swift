@@ -1,12 +1,7 @@
-//
-//  CardView.swift
-//  Yummie
-//
-//  Created by Emmanuel Okwara on 20/02/2021.
-//
+
 
 import UIKit
-
+// making some effects to anycell inherite from it
 class CardView: UIView {
     
     override init(frame: CGRect) {
