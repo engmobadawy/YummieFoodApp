@@ -1,7 +1,17 @@
 🍔 Yummie - Food Ordering App (iOS)
 A fully functional food delivery app built with Swift and UIKit, featuring dish browsing, category filtering, and order placement.
 
-<p align="center"> <img src="screenshots/home.png" width="200" /> <img src="screenshots/detail.png" width="200" /> <img src="screenshots/orders.png" width="200" /> </p>
+📁 Project Structure
+.
+├── Controllers/       # ViewControllers (Home, Detail, Onboarding, etc.)
+├── Models/            # Data models (Dish, Order, etc.)
+├── Network/           # NetworkService, Route, API configs
+├── Views/             # Custom cells (XIBs) and UI components
+├── Utilities/         # Extensions, AppError, etc.
+└── Resources/         # Assets, Storyboards
+🚀 Getting Started
+Prerequisites: Xcode 13+, iOS 13+
+
 🔥 Features
 Onboarding Flow: Interactive slides with UICollectionView and UserDefaults persistence.
 
@@ -27,20 +37,6 @@ IQKeyboardManager for form handling
 
 Kingfisher (assumed, for image loading)
 
-📁 Project Structure
-.
-├── Controllers/       # ViewControllers (Home, Detail, Onboarding, etc.)
-├── Models/            # Data models (Dish, Order, etc.)
-├── Network/           # NetworkService, Route, API configs
-├── Views/             # Custom cells (XIBs) and UI components
-├── Utilities/         # Extensions, AppError, etc.
-└── Resources/         # Assets, Storyboards
-🚀 Getting Started
-Prerequisites: Xcode 13+, iOS 13+
-
-
-📸 Screenshots
-Onboarding	Categories	Order Details
-<img src="screenshots/onboarding.png" width="200">	<img src="screenshots/categories.png" width="200">	<img src="screenshots/order.png" width="200">
+Demo : https://www.linkedin.com/posts/engmobadawy_take-a-look-at-my-ios-food-ordering-app-activity-7331376234582487040-flz6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFm2kIYB4WyvopbHubvazBA5FlqKYJfBKWY
 📝 Notes
 Backend: Uses mock API from Glitch.
