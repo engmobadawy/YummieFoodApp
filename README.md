@@ -38,5 +38,6 @@ IQKeyboardManager for form handling
 Kingfisher (assumed, for image loading)
 
 Demo : https://www.linkedin.com/posts/engmobadawy_take-a-look-at-my-ios-food-ordering-app-activity-7331376234582487040-flz6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFm2kIYB4WyvopbHubvazBA5FlqKYJfBKWY
+
 📝 Notes
-Backend: Uses mock API from Glitch.
+Backend: Uses mock API from Glitch : https://glitch.com/edit/#!/yummie?path=categories.json%3A27%3A1
