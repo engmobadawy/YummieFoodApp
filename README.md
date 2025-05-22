@@ -2,13 +2,16 @@
 A fully functional food delivery app built with Swift and UIKit, featuring dish browsing, category filtering, and order placement.
 
 ## 📁 Project Structure  
+```plaintext
 .
-├── Controllers/ # ViewControllers (Home, Detail, Onboarding, etc.)
-├── Models/ # Data models (Dish, Order, etc.)
-├── Network/ # NetworkService, Route, API configs
-├── Views/ # Custom cells (XIBs) and UI components
-├── Utilities/ # Extensions, AppError, etc.
-└── Resources/ # Assets, Storyboards
+├── Controllers/      # ViewControllers (Home, Detail, Onboarding, etc.)
+├── Models/           # Data models (Dish, Order, etc.)
+├── Network/          # NetworkService, Route, API configs
+├── Views/            # Custom cells (XIBs) and UI components
+├── Utilities/        # Extensions, AppError, etc.
+└── Resources/        # Assets, Storyboards
+```
+
 
 
 ## 🚀 Getting Started  
